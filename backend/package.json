@@ -1,0 +1,57 @@
+{
+  "name": "auracare-backend",
+  "version": "1.0.0",
+  "description": "AuraCare Enterprise EHR & Practice Management Backend",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts",
+    "worker": "tsx watch src/workers/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ehr",
+    "healthcare",
+    "hipaa",
+    "pern",
+    "postgresql",
+    "redis",
+    "bullmq",
+    "express"
+  ],
+  "author": "AuraCare Health Inc.",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@google/genai": "^2.3.0",
+    "bcryptjs": "^2.4.3",
+    "bullmq": "^5.41.0",
+    "compression": "^1.7.5",
+    "connect-redis": "^8.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "ioredis": "^5.4.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/compression": "^1.7.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.1",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/node": "^22.13.4",
+    "@types/pg": "^8.11.11",
+    "@types/uuid": "^10.0.0",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

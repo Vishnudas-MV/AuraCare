@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "AuraCare EHR",
+    "tagline": "Next-Generation PERN Clinical Platform"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "patients": "Patients & Charts",
+    "scheduler": "Clinical Scheduler",
+    "settings": "System Settings"
+  },
+  "chart": {
+    "subjective": "Subjective",
+    "objective": "Objective",
+    "assessment": "Assessment",
+    "plan": "Plan",
+    "vitals": "Vital Signs",
+    "signed": "SIGNED",
+    "pending": "PENDING"
+  },
+  "security": {
+    "hipaaCompliant": "HIPAA Tier-3 Compliant Session",
+    "encrypted": "AES-256 GCM Encrypted"
+  }
+}
